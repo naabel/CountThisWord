@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34219.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountThisWordLibrary", "CountThisWordLibrary\CountThisWordLibrary.csproj", "{223D4F1D-579E-4117-B990-36E031E563BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountThisWordConsole", "CountThisWordConsole\CountThisWordConsole.csproj", "{98C9D7B6-1826-4639-B5D5-BCAB85B134DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0D8D543-0CC4-486F-83DC-9DA661F021F1}"
+	ProjectSection(SolutionItems) = preProject
+		test-file-empty.txt = test-file-empty.txt
+		test-file-love.txt = test-file-love.txt
+		test-file-no-match.txt = test-file-no-match.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +18,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{223D4F1D-579E-4117-B990-36E031E563BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{223D4F1D-579E-4117-B990-36E031E563BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{223D4F1D-579E-4117-B990-36E031E563BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{223D4F1D-579E-4117-B990-36E031E563BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C9D7B6-1826-4639-B5D5-BCAB85B134DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C9D7B6-1826-4639-B5D5-BCAB85B134DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C9D7B6-1826-4639-B5D5-BCAB85B134DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C9D7B6-1826-4639-B5D5-BCAB85B134DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
